@@ -1,7 +1,9 @@
-#Rocket Simulation v1.0.3
+#Rocket Simulation v1.0.5
+
 Simple tool for rocket motor simulation by using python，written by Quix @ZQWEI
 
 ##Basic charicteristics
+
 1.The core algorithm were based on the original SRD software(Simple Rccket Designer)
 
 2.Interial ballistic calculation was based on RK Method, and supports the two-phase flow model
@@ -12,19 +14,23 @@ Simple tool for rocket motor simulation by using python，written by Quix @ZQWEI
 
 
 ##Install
+
 Just use pip to install ! :D
 ```
-pip install rocketsimu
+pip install rocketsimu==1.0.5
 ```
 
 
 ##License
+
 MIT License
 
 
 ##Examples
+
 ###Example 1:
-```python，written
+
+```python
 import rocketsimu as rs
 import rocketsimu.motorsimu as ms
 from rocketsimu import propellent,grain,nozzle
@@ -68,7 +74,7 @@ plt.ylabel("force/N")
 plt.show()
 ```
 ###Example 2:
-```python，written
+```python
 import rocketsimu as rs
 import rocketsimu.motorsimu as ms
 from rocketsimu import propellent,grain,nozzle
@@ -116,8 +122,8 @@ plt.ylabel("force/N")
 plt.show()
 ```
 
-##Example 3:
-```python,written
+###Example 3:
+```python
 import rocketsimu as rs
 import rocketsimu.motorsimu as ms
 from rocketsimu import propellent, grain, nozzle
