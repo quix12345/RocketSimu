@@ -1,34 +1,29 @@
-#Rocket Simulation v1.0.5
+# Rocket Simulation v1.0.5
 
-Simple tool for rocket motor simulation by using python，written by Quix @ZQWEI
+Simple tool for rocket motor simulation by using python，developed by Quix @ZQWEI
 
-##Basic charicteristics
+## Basic charicteristics
 
-1.The core algorithm were based on the original SRD software(Simple Rccket Designer)
-
-2.Interial ballistic calculation was based on RK Method, and supports the two-phase flow model
-
-3.Thrust calculation support the auto-design of the laval nozzle
-
-4.It also provide the functions to calculate the propellent burnrate from the thrust(see example 3)
+1. The core algorithm were based on the original SRD software(Simple Rccket Designer)
+2. Interial ballistic calculation was based on RK Method, and supports the two-phase flow model
+3. Thrust calculation support the auto-design of the laval nozzle
+4. It also provide the functions to calculate the propellent burnrate from the thrust(see example 3)
 
 
-##Install
+## Install
 
 Just use pip to install ! :D
 ```
 pip install rocketsimu==1.0.5
 ```
 
-
-##License
+## License
 
 MIT License
 
+## Examples
 
-##Examples
-
-###Example 1:
+### Example 1:
 
 ```python
 import rocketsimu as rs
@@ -73,7 +68,7 @@ plt.xlabel("time/s")
 plt.ylabel("force/N")
 plt.show()
 ```
-###Example 2:
+### Example 2:
 ```python
 import rocketsimu as rs
 import rocketsimu.motorsimu as ms
@@ -122,7 +117,7 @@ plt.ylabel("force/N")
 plt.show()
 ```
 
-###Example 3:
+### Example 3:
 ```python
 import rocketsimu as rs
 import rocketsimu.motorsimu as ms
@@ -174,3 +169,7 @@ plt.ylabel("burnrate/ms^-1")
 plt.show()
 
 ```
+
+## About SRD
+Check ZQWEI's Website to know more！
+[SRD v2.0.3](https://zqwei-quix.ukgsdn.co.uk/en/simple-rocket-designer/)
